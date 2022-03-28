@@ -11,9 +11,6 @@
             <arguments>
                 <argument name="view_model" xsi:type="object">Vendor\MagentoSales\ViewModel\Stock</argument>
             </arguments>
-            <action method='setTemplate'>
-                <argument name='template' xsi:type='string'>Vendor_MagentoSales::order/create/items/grid.phtml</argument>
-            </action>
         </referenceBlock>
     </body>
 </page>
